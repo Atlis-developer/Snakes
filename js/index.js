@@ -51,7 +51,7 @@ function paintAll() {
         if (i == 0) {
             snk.drawImage(headSnake, coordinatesSnake[i].x, coordinatesSnake[i].y)
         }else{
-            snk.fillStyle = 'green';
+            snk.fillStyle = '#269926';
             snk.fillRect(coordinatesSnake[i].x, coordinatesSnake[i].y, sizeBox, sizeBox);
         }    
     }
